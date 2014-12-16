@@ -1,9 +1,8 @@
 # -*- mode: snippet -*-
-# contributor: @darinmorrison
-# name: loop
+# name: loop { … }
 # key: loop
 # type: snippet
 # --
 loop {
-    $0
-}
+    ${1:()}
+}$0

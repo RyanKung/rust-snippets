@@ -1,9 +1,8 @@
 # -*- mode: snippet -*-
-# contributor: @darinmorrison
-# name: for
+# name: for name in iterable { … }
 # key: for
 # type: snippet
 # --
-for ${1:e} in ${2:v.iter()} {
-    $0
-}
+for ${1:name} in ${2:iterable} {
+    ${3:()}
+}$0
