@@ -17,8 +17,8 @@ Alternatively, after cloning this repository:
 
 ```elisp
 (add-to-list 'load-path "<path>/rust-snippets")
-(autoload 'rust-snippets-initialize "rust-snippets")
+(autoload 'rust-snippets/initialize "rust-snippets")
 (eval-after-load 'yasnippet
-  '(rust-snippets-initialize))
+  '(rust-snippets/initialize))
 ```
 
